@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root{
+    --neutral-100: #ffffff;
+    --neutral-150: #D6CFC4;
+    --neutral-200: #C4AD9D;
+    --neutral-300: #A6856C;
+    --neutral-400: #8C6F53;
+    --neutral-600: #6E5849;
+    --neutral-700: #5A4638;
+    --neutral-900: #3B2E28;
+    --green-100: #23758A;
+    --green-200: #1B5E6A;
+    --green-400: #167373;
+    --green-600: #14514E;
+    --blue-100: #3A86FF;
+    --blue-200: #2E6FCC;
+    --blue-300: #245299;
+    --blue-400: #1A3673;
+    --red-100: #CC4749; 
+    --red-200: #FF595E;
+    --red-300: #E04E50;
+    --red-400: #B23A3C;
+    --red-500: #B22222;
+    --red-700: #800000;
+    --yellow-100: #FFD60A;
+    --yellow-200: #E6C200;
+    --yellow-500: #B38F00;
+    --yellow-700: #806600;
+    --black-100: #27212E;
+    --black-200: #1F1A24;
+    --black-500: #17121A;
+    --black-700: #0F0B0E;
+}

@@ -1,0 +1,229 @@
+{
+  "products": [
+    {
+      "date": "2026-03-06",
+      "id": "p001",
+      "name": "Mechanical Keyboard",
+      "description": "RGB Backlit, Brown Switches",
+      "price": 85,
+      "quantity": 45,
+      "tax": 10,
+      "discount": 0,
+      "image": null
+    },
+    {
+      "date": "2026-03-06",
+      "id": "p002",
+      "name": "Webcam 1080p",
+      "description": "Auto-focus with dual noise-canceling mics",
+      "price": 59,
+      "quantity": 2,
+      "tax": 10,
+      "discount": 0,
+      "image": null
+    },
+    {
+      "id": "p003",
+      "name": "USB-C Hub",
+      "description": "7-in-1 Aluminum Adapter",
+      "price": 35,
+      "quantity": 100,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "date": "2026-03-06",
+      "id": "p004",
+      "name": "Noise Cancelling Headphones",
+      "description": "Over-ear Bluetooth 5.2",
+      "price": 199,
+      "quantity": 25,
+      "tax": 10,
+      "discount": 0,
+      "image": null
+    },
+    {
+      "id": "p005",
+      "name": "Dual Monitor Stand",
+      "description": "Heavy-duty gas spring arm",
+      "price": 75,
+      "quantity": 15,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p006",
+      "name": "Laptop Cooling Pad",
+      "description": "5 Quiet fans with adjustable height",
+      "price": 28,
+      "quantity": 50,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "date": "2026-03-06",
+      "id": "p007",
+      "name": "External SSD 1TB",
+      "description": "Portable NVMe storage",
+      "price": 110,
+      "quantity": 40,
+      "tax": "0",
+      "discount": 0
+    },
+    {
+      "id": "p008",
+      "name": "Wireless Charger",
+      "description": "15W Fast charging pad",
+      "price": 22,
+      "quantity": 80,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p011",
+      "name": "Microphone Arm",
+      "description": "Adjustable suspension scissor arm",
+      "price": 35,
+      "quantity": 22,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p012",
+      "name": "Ring Light 10-inch",
+      "description": "Dimmable with tripod stand",
+      "price": 45,
+      "quantity": 55,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "date": "2026-03-06",
+      "id": "p013",
+      "name": "Cable Management Box",
+      "description": "Large wooden lid organizer",
+      "price": 20,
+      "quantity": 60,
+      "tax": 10,
+      "discount": 0,
+      "image": null
+    },
+    {
+      "id": "p014",
+      "name": "Vertical Mouse",
+      "description": "Wireless ergonomic design",
+      "price": 42,
+      "quantity": 35,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p015",
+      "name": "Smart Power Strip",
+      "description": "4 Outlets, 4 USB ports, WiFi enabled",
+      "price": 38,
+      "quantity": 48,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p017",
+      "name": "Bluetooth Adapter",
+      "description": "USB Dongle for PC",
+      "price": 12,
+      "quantity": 150,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p018",
+      "name": "HDMI Cable 10ft",
+      "description": "4K 60Hz High Speed",
+      "price": 15,
+      "quantity": 200,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p019",
+      "name": "Portable Power Bank",
+      "description": "20,000mAh with PD 20W",
+      "price": 45,
+      "quantity": 70,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "p020",
+      "name": "Drawing Tablet",
+      "description": "8192 levels of pressure sensitivity",
+      "price": 130,
+      "quantity": 18,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "date": "2026-03-06",
+      "id": "p021",
+      "name": "Laptop Sleeve",
+      "description": "Water-resistant neoprene",
+      "price": 19,
+      "quantity": 90,
+      "tax": 10,
+      "discount": 0,
+      "image": null
+    },
+    {
+      "id": "p022",
+      "name": "Under-desk Treadmill",
+      "description": "Walking pad for remote work",
+      "price": 350,
+      "quantity": 5,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "6f6d",
+      "name": "LED Desk Lamp",
+      "description": "LED desk lamp with adjustable brightness and angle.",
+      "price": 12,
+      "quantity": 46,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "id": "296e",
+      "name": "Gaming Mouse",
+      "description": "Ergonomic RGB gaming mouse with 7 programmable buttons.",
+      "price": 145,
+      "quantity": 33,
+      "date": "2026-03-06",
+      "tax": 10,
+      "discount": 0
+    },
+    {
+      "date": "3/6/2026, 8:06:00 PM",
+      "id": "f57e",
+      "name": "Gaming Mouse",
+      "description": "LED desk lamp with adjustable brightness and angle.",
+      "price": "160",
+      "discount": "2",
+      "tax": "1",
+      "quantity": "22"
+    }
+  ]
+}
