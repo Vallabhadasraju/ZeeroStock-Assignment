@@ -1,0 +1,54 @@
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useSearchParams } from "react-router-dom";
+import { dashboardProductsAction, fetchProducts } from "../store/actions/index";
+
+const useProductFilter = () => {
+  const [searchParams] = useSearchParams();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const params = new URLSearchParams();
+    const currentPage = searchParams.get("page")
+      ? Number(searchParams.get("page"))
+      : 1;
+    const sortOrder = searchParams.get("sortOrder") || "asc";
+    const category = searchParams.get("category") || null;
+    const keyword = searchParams.get("keyword") || null;
+
+    params.set("pageNumber", currentPage - 1);
+    params.set("sortBy", "price");
+    params.set("sortOrder", sortOrder);
+
+    if (category) params.set("category", category);
+    if (keyword) params.set("keyword", keyword);
+
+    dispatch(fetchProducts(params.toString()));
+  }, [dispatch, searchParams]);
+};
+
+export const useDashboardProductFilter = () => {
+  const { user } = useSelector((state) => state.auth);
+  const isAdmin = user?.roles?.includes("ROLE_ADMIN");
+  const [searchParams] = useSearchParams();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const token = localStorage.getItem("token")?.trim();
+
+    if (!user || !token) {
+      return;
+    }
+
+    const params = new URLSearchParams();
+    const currentPage = searchParams.get("page")
+      ? Number(searchParams.get("page"))
+      : 1;
+
+    params.set("pageNumber", currentPage - 1);
+
+    dispatch(dashboardProductsAction(params.toString(), isAdmin));
+  }, [dispatch, isAdmin, searchParams, user]);
+};
+
+export default useProductFilter;
